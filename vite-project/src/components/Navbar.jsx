@@ -3,12 +3,13 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav className="hero-navbar">
-        <div className="logo">DvLighthouse</div>
+        <div className="logo">Hi Kanika Khandelwal!</div>
         <ul className="nav-items">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Beam</a></li>
-          <li><a href="#">Ships</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Move</a></li>
+          <li><a href="#">Mouse</a></li>
+          <li><a href="#">On</a></li>
+          <li><a href="#">This</a></li>
+          <li><a href="#">Page</a></li>
         </ul>
       </nav>
 
