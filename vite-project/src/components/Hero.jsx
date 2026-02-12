@@ -58,7 +58,7 @@ const handleMouseMove = (e) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          Guiding You Through the Dark
+          I was searching for someone in this dark world with a beam of light
         </motion.h1>
 
         <motion.p
@@ -67,7 +67,7 @@ const handleMouseMove = (e) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
         >
-          A cinematic code experience by the lighthouse.
+          And couldn't find, just like you're unable to find anything even with a light, so i thought of moving on as the life goes. 
         </motion.p>
 
         <motion.button
@@ -78,7 +78,7 @@ const handleMouseMove = (e) => {
 
 
         >
-          Start Exploring
+          Scroll Down
         </motion.button>
       </motion.div>
       <div className="hero-overlay">
