@@ -134,6 +134,8 @@ html, body {
   transition: all 0.3s ease;
   border-radius: 6px;
   font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .hero-button:hover {

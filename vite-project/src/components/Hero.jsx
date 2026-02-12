@@ -70,16 +70,15 @@ const handleMouseMove = (e) => {
           And couldn't find, just like you're unable to find anything even with a light, so i thought of moving on as the life goes. 
         </motion.p>
 
-        <motion.button
-        className="hero-button"
+        <motion.a
+          href="#section2"
+          className="hero-button"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.4 }}
-
-
         >
-          <a href="#section2">Scroll Down</a>
-        </motion.button>
+          Scroll Down
+        </motion.a>
       </motion.div>
       <div className="hero-overlay">
         
