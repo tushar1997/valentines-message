@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './Section1.css';
+import sectionImage from '../assets/section1.png';
 
 const Section1 = () => {
   const sectionRef = useRef(null);
@@ -52,7 +53,7 @@ const Section1 = () => {
 
   return (
     <div className="section1" onMouseMove={handleMouseMove} ref={sectionRef}>
-      <img src="/images/section1.png" alt="" className="section1-img" />
+      <img src={sectionImage} alt="" className="section1-img" />
 
       <div
         className="section1-beam"
