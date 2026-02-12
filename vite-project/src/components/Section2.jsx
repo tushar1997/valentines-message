@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import './Section2.css';
 
 const Section2 = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   return (
     <div className="section2">
       <motion.div
@@ -12,7 +13,7 @@ const Section2 = () => {
         transition={{ duration: 1.2, ease: 'easeOut' }}
         viewport={{ once: true, amount: 0.4 }}
       >
-        <img src="/images/section1.png" alt="Visual" />
+        <img src={`${baseUrl}images/section1.png`} alt="Visual" />
       </motion.div>
 
       <motion.div

@@ -7,6 +7,7 @@ const Hero = () => {
   const heroRef = useRef(null);
   const [beamStyle, setBeamStyle] = useState({ width: 0, angle: 0 });
   const beamOrigin = { x: 390, y: 10 };
+  const baseUrl = import.meta.env.BASE_URL;
 
   
 
@@ -31,7 +32,7 @@ const handleMouseMove = (e) => {
         muted
         playsInline
         className="hero-bg"
-        src="/videos/hero.mp4"
+        src={`${baseUrl}videos/hero.mp4`}
       />
 
       <div
