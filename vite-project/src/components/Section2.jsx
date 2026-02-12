@@ -29,8 +29,16 @@ const Section2 = () => {
           And now here we are… talking, laughing, sharing random thoughts like we’ve known each other longer than we actually have. Not bad for two strangers who met on instagram randomly. Do you even remember our first call? Nahi naa, chalo, i tell you, it was 29 January 2026, 19:19.
           So I was thinking… instead of just being “that guy from Instagram DMs,” how about I ask you something &darr;
         </p>
-
-      </motion.div>
+        <motion.a
+          href="#section1"
+          className="hero-button"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut', delay: 0.4 }}
+          viewport={{ once: true }}
+        >
+          Scroll Down
+        </motion.a>      </motion.div>
     </div>
   );
 };
