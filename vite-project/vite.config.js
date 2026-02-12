@@ -5,4 +5,24 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/valentines-message/',
   plugins: [react()],
+  build: {
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      },
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {
+            if (id.includes('framer-motion')) {
+              return 'framer-motion'
+            }
+            return 'vendor'
+          }
+        },
+      },
+    },
+  },
 })

@@ -23,17 +23,23 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24.11.1'
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+          node-version: '20.17.0'
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: vite-project/node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('vite-project/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
 
       - name: Install dependencies
         working-directory: vite-project
-        run: npm install
+        run: npm ci
 
       - name: Build project
         working-directory: vite-project
-        run: npm run build
+        run: npm run build --omit=dev
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
