@@ -40,6 +40,7 @@ jobs:
       - name: Build project
         working-directory: vite-project
         run: npm run build --omit=dev
+  run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
