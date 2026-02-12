@@ -25,9 +25,9 @@ const Section2 = () => {
       >
         <h2 className="typewriter">A Moon Entering my life</h2>
         <p className="section2-text">
-          I still can’t believe we randomly crossed paths on Instagram of all places. I mean… what are the odds? I sent that “let’s see if she even replies” message with zero expectations… and then you actually replied. I’m not saying it was fate, but Instagram algorithm deserves a thank you card.
-          And now here we are… talking, laughing, sharing random thoughts like we’ve known each other longer than we actually have. Not bad for two strangers who met in the comment section jungle.
-          So I was thinking… instead of just being “that guy from Instagram DMs,” how about I upgrade my status and take you out for coffee? I promise I’m slightly more interesting in person… and I don’t leave people on read 😌
+          I still can’t believe we randomly crossed paths on Instagram on 16 January 2026. I mean… what are the odds? I sent that random ice breaker “Are you active on ” message with zero expectations… and then you actually replied. I’m not saying it was fate, but Instagram algorithm deserves a thank you card.
+          And now here we are… talking, laughing, sharing random thoughts like we’ve known each other longer than we actually have. Not bad for two strangers who met on instagram randomly. Do you even remember our first call? Nahi naa, chalo, i tell you, it was 29 January 2026, 19:19
+          So I was thinking… instead of just being “that guy from Instagram DMs,” how about I ask you something &darr;
           What do you say?
         </p>
 
