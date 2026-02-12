@@ -78,7 +78,7 @@ const handleMouseMove = (e) => {
 
 
         >
-          Scroll Down
+          <a href="#section2">Scroll Down</a>
         </motion.button>
       </motion.div>
       <div className="hero-overlay">

@@ -5,7 +5,7 @@ import sectionImage from '../assets/section1.png';
 
 const Section2 = () => {
   return (
-    <div className="section2">
+    <div className="section2" id="section2">
       <motion.div
         className="left"
         initial={{ x: -200, opacity: 0 }}
