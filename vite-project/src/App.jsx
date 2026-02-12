@@ -1,4 +1,3 @@
-'/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
 import Section1 from './components/Section1'

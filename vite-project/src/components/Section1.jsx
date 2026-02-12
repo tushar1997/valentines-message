@@ -52,7 +52,7 @@ const Section1 = () => {
 
   return (
     <div className="section1" onMouseMove={handleMouseMove} ref={sectionRef}>
-      <img src="./images/section1.png" alt="" className="section1-img" />
+      <img src="/images/section1.png" alt="" className="section1-img" />
 
       <div
         className="section1-beam"

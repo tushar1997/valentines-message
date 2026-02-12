@@ -12,7 +12,7 @@ const Section2 = () => {
         transition={{ duration: 1.2, ease: 'easeOut' }}
         viewport={{ once: true, amount: 0.4 }}
       >
-        <img src="./images/section1.png" alt="Visual" />
+        <img src="/images/section1.png" alt="Visual" />
       </motion.div>
 
       <motion.div
