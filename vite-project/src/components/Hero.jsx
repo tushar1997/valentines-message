@@ -2,12 +2,12 @@ import  { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 import Navbar from './Navbar';
+import heroVideo from '../assets/hero.mp4';
 
 const Hero = () => {
   const heroRef = useRef(null);
   const [beamStyle, setBeamStyle] = useState({ width: 0, angle: 0 });
   const beamOrigin = { x: 390, y: 10 };
-  const baseUrl = import.meta.env.BASE_URL;
 
   
 
@@ -32,7 +32,7 @@ const handleMouseMove = (e) => {
         muted
         playsInline
         className="hero-bg"
-        src={`${baseUrl}videos/hero.mp4`}
+        src={heroVideo}
       />
 
       <div
