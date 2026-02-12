@@ -25,11 +25,10 @@ const Section2 = () => {
       >
         <h2 className="typewriter">Charting New Territories</h2>
         <p className="section2-text">
-          Embark on a journey through immersive visuals and clean code.<br />
-          This project isn’t just a website — it’s an experience.<br />
-          We blend animations, interactivity, and responsive design.<br />
-          Every section tells a story, guided by light and layered by thought.<br />
-          Dive deep, explore more, and sail into innovation.
+          I still can’t believe we randomly crossed paths on Instagram of all places. I mean… what are the odds? I sent that “let’s see if she even replies” message with zero expectations… and then you actually replied. I’m not saying it was fate, but Instagram algorithm deserves a thank you card.
+          And now here we are… talking, laughing, sharing random thoughts like we’ve known each other longer than we actually have. Not bad for two strangers who met in the comment section jungle.
+          So I was thinking… instead of just being “that guy from Instagram DMs,” how about I upgrade my status and take you out for coffee? I promise I’m slightly more interesting in person… and I don’t leave people on read 😌
+          What do you say?
         </p>
 
       </motion.div>
